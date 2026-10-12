@@ -13,7 +13,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/hello', (req, res) => {
-  res.send('Hello world!');
+  res.send('Hello, student!');
 });
 
 // Keep the missing-page response after all of our routes.
